@@ -94,7 +94,7 @@
 .food-category-image {
  width: 70%;
  height: auto;
- border-radius: 20px;
+ border-radius: 50%;
  margin: 0px;
 }
 
@@ -103,12 +103,11 @@
   margin: 0px;
 }
 
-#food-categories td a img { display:block; margin:0 auto; }
-
 #home-menu {
   margin: 70px 0px;
   padding: 5px;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.65);
+  border-radius: 30px;
 }
 
 .image-header {
@@ -130,4 +129,8 @@
 body {
   margin: 0px;
   padding: 0px;
+}
+
+.food-category-image:hover {
+  opacity: 0.7;
 }
