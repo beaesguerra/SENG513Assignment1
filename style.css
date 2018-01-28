@@ -31,7 +31,7 @@
   padding: 10px 20px;
 }
 
-#menu-items li a {
+#menu-items li a, #menu-items td a {
   text-decoration: none;
   color: inherit;
   font-size: 18px;
@@ -93,3 +93,7 @@
 }
 
 #food-categories td a img { display:block; margin:0 auto; }
+
+#home-menu {
+  padding: 70px 0px;
+}
