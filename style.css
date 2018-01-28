@@ -46,6 +46,7 @@
   width: 60%;
   height: 100%;
 }
+
 #full-content {
   width: 70%;
 }
@@ -101,11 +102,17 @@
 }
 
 .image-header {
-  width: 100%;
+  height: 500px;
+  width: auto;
 }
 
 .page-headers {
   text-align: center;
   font-size: 70px;
   letter-spacing: 0.2em;
+}
+
+#currentPage {
+  font-weight: bold;
+  border-bottom: 1px solid #ff6699;
 }
