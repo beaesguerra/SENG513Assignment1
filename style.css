@@ -12,9 +12,13 @@
   text-transform: lowercase;
   margin: 0px;
   vertical-align: center;
-  padding: 30px;
+  padding: 50px;
 }
 
+#logo a {
+  text-decoration: none;
+  color: inherit;
+}
 #main {
   display: flex;
   justify-content: center;
@@ -27,18 +31,30 @@
   padding: 10px 20px;
 }
 
-#content {
+#menu-items li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+}
+#content, #full-content {
   text-align: justify;
   order: 1;
-  width: 50%;
   padding: 10px 20px;
 }
 
+#content {
+  width: 50%;
+}
+#full-content {
+  width: 65%;
+}
+
 .subheaders {
-  font-size: 25px;
+  font-size: 28px;
   color: #595959;
   font-family: 'Poiret One', cursive;
   text-transform: uppercase;
+  margin: 5px;
 }
 
 #menu-items li {
@@ -50,6 +66,30 @@
 
 }
 
+#menu-items td {
+  font-size: 20px;
+  color: #595959;
+  font-family: 'Arima Madurai', cursive;
+  padding: 2px;
+  list-style: none;
+  text-align: center;
+}
 #menu-items {
   padding: 0px 15px;
 }
+
+.food-header {
+  width: 100%;
+}
+
+.food-category-image {
+ width: 70%;
+ height: auto;
+ border-radius: 20px;
+}
+
+#food-categories td {
+  text-align: center;
+}
+
+#food-categories td a img { display:block; margin:0 auto; }
