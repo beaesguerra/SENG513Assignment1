@@ -1,3 +1,99 @@
-p {
-  color: red
+
+#header {
+  text-align: center;
+  background-color: white;
+  vertical-align: center;
+}
+
+#logo {
+  font-size: 100px;
+  color: #ff6699;
+  font-family: 'Dancing Script', cursive;
+  text-transform: lowercase;
+  margin: 0px;
+  vertical-align: center;
+  padding: 50px;
+}
+
+#logo a {
+  text-decoration: none;
+  color: inherit;
+}
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+#menu {
+  flex-wrap: wrap;
+  order: 0;
+  width: 15%;
+  padding: 10px 20px;
+}
+
+#menu-items li a, #menu-items td a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+}
+#content, #full-content {
+  text-align: justify;
+  order: 1;
+  padding: 10px 20px;
+}
+
+#content {
+  width: 50%;
+}
+#full-content {
+  width: 65%;
+}
+
+.subheaders {
+  font-size: 28px;
+  color: #595959;
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+#menu-items li {
+  font-size: 15px;
+  color: #595959;
+  font-family: 'Arima Madurai', cursive;
+  padding: 2px;
+  list-style: none;
+
+}
+
+#menu-items td {
+  font-size: 20px;
+  color: #595959;
+  font-family: 'Arima Madurai', cursive;
+  padding: 2px;
+  list-style: none;
+  text-align: center;
+}
+#menu-items {
+  padding: 0px 15px;
+}
+
+.food-header {
+  width: 100%;
+}
+
+.food-category-image {
+ width: 70%;
+ height: auto;
+ border-radius: 20px;
+}
+
+#food-categories td {
+  text-align: center;
+}
+
+#food-categories td a img { display:block; margin:0 auto; }
+
+#home-menu {
+  padding: 70px 0px;
 }
