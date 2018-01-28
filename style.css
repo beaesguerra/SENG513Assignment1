@@ -73,7 +73,7 @@
   font-family: 'Arima Madurai', cursive;
   padding: 2px;
   list-style: none;
-
+  
 }
 
 #menu-items td {
@@ -93,10 +93,10 @@
 }
 
 .food-category-image {
- width: 70%;
- height: auto;
- border-radius: 50%;
- margin: 0px;
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0px;
 }
 
 #food-categories td {
