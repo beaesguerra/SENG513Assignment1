@@ -12,7 +12,7 @@
   text-transform: lowercase;
   margin: 0px;
   vertical-align: center;
-  padding: 50px;
+  padding: 30px;
 }
 
 #logo a {
@@ -36,6 +36,7 @@
   color: inherit;
   font-size: 18px;
 }
+
 #content, #full-content {
   text-align: justify;
   order: 1;
@@ -48,7 +49,10 @@
 }
 
 #full-content {
-  width: 70%;
+  width: 100%;
+  padding: 0px;
+  /* background: url("http://weknowyourdreams.com/images/cooking/cooking-05.jpg") no-repeat center center fixed;
+  background-size: cover; */
 }
 
 .subheaders {
@@ -98,7 +102,8 @@
 #food-categories td a img { display:block; margin:0 auto; }
 
 #home-menu {
-  padding: 70px 0px;
+  margin: 70px 0px;
+  padding: 5px;
 }
 
 .image-header {
@@ -115,4 +120,23 @@
 #currentPage {
   font-weight: bold;
   border-bottom: 1px solid #ff6699;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#main-image {
+  height: auto;
+  width: 100%;
+}
+
+.background-image {
+  background: url("http://weknowyourdreams.com/images/cooking/cooking-05.jpg") no-repeat center;
+  height: 500px;
+}
+.inside {background-color:rgba(255,255,255,0.7);
+  height: 400px;
+  width: 60%;
 }
