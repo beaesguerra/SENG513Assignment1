@@ -1,3 +1,55 @@
-p {
-  color: red
+
+#header {
+  text-align: center;
+  background-color: white;
+  vertical-align: center;
+}
+
+#logo {
+  font-size: 100px;
+  color: #ff6699;
+  font-family: 'Dancing Script', cursive;
+  text-transform: lowercase;
+  margin: 0px;
+  vertical-align: center;
+  padding: 30px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+#menu {
+  flex-wrap: wrap;
+  order: 0;
+  width: 15%;
+  padding: 10px 20px;
+}
+
+#content {
+  text-align: justify;
+  order: 1;
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.subheaders {
+  font-size: 25px;
+  color: #595959;
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+}
+
+#menu-items li {
+  font-size: 15px;
+  color: #595959;
+  font-family: 'Arima Madurai', cursive;
+  padding: 2px;
+  list-style: none;
+
+}
+
+#menu-items {
+  padding: 0px 15px;
 }
