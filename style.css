@@ -1,3 +1,11 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-family: 'Arima Madurai', cursive;
+}
 
 #header {
   text-align: center;
@@ -19,26 +27,7 @@
   text-decoration: none;
   color: inherit;
 }
-#main {
-  display: flex;
-  justify-content: center;
-}
 
-#menu {
-  flex-wrap: wrap;
-  order: 0;
-  width: 10%;
-  padding: 10px 20px;
-}
-
-#menu-items li a, #menu-items td a {
-  text-decoration: none;
-  color: inherit;
-  font-size: 18px;
-}
-#menu-items td a {
-  color: white;
-}
 #content, #full-content {
   text-align: justify;
   order: 1;
@@ -58,13 +47,30 @@
   background-size: cover;
 }
 
-.subheaders {
-  font-size: 28px;
-  color: #595959;
-  font-family: 'Poiret One', cursive;
-  text-transform: uppercase;
-  margin: 10px;
-  letter-spacing: 0.1em;
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+#menu {
+  flex-wrap: wrap;
+  order: 0;
+  width: 10%;
+  padding: 10px 20px;
+}
+
+#menu-items li a, #menu-items td a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+}
+
+#menu-items li a:hover {
+  font-weight: bold;
+}
+
+#menu-items td a {
+  color: white;
 }
 
 #menu-items li {
@@ -73,7 +79,6 @@
   font-family: 'Arima Madurai', cursive;
   padding: 2px;
   list-style: none;
-  
 }
 
 #menu-items td {
@@ -84,12 +89,21 @@
   list-style: none;
   text-align: center;
 }
+
+#home-menu {
+  margin: 70px 0px;
+  padding: 5px;
+  background-color: rgba(0,0,0,0.65);
+  border-radius: 30px;
+}
+
 #menu-items {
   padding: 0px 15px;
 }
 
-.food-header {
-  width: 100%;
+#currentPage {
+  font-weight: bold;
+  border-bottom: 1px solid #ff6699;
 }
 
 .food-category-image {
@@ -99,16 +113,26 @@
   margin: 0px;
 }
 
+.food-category-image:hover {
+  opacity: 0.7;
+}
+
 #food-categories td {
   text-align: center;
   margin: 0px;
 }
 
-#home-menu {
-  margin: 70px 0px;
-  padding: 5px;
-  background-color: rgba(0,0,0,0.65);
-  border-radius: 30px;
+.subheaders {
+  font-size: 28px;
+  color: #595959;
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  margin: 10px;
+  letter-spacing: 0.1em;
+}
+
+.food-header {
+  width: 100%;
 }
 
 .image-header {
@@ -120,24 +144,6 @@
   text-align: center;
   font-size: 70px;
   letter-spacing: 0.2em;
-}
-
-#currentPage {
-  font-weight: bold;
-  border-bottom: 1px solid #ff6699;
-}
-
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
-.food-category-image:hover {
-  opacity: 0.7;
-}
-
-p {
-  font-family: 'Arima Madurai', cursive;
 }
 
 .food-info {
